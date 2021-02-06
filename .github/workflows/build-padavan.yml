@@ -150,7 +150,7 @@ jobs:
           echo "CONFIG_FIRMWARE_INCLUDE_ADGUARDHOME=y" >> configs/templates/$TNAME.config # 添加AdGuardHome
           echo "CONFIG_FIRMWARE_INCLUDE_WYY=n" >> configs/templates/$TNAME.config         # 网易云解锁
           echo "CONFIG_FIRMWARE_INCLUDE_WYYBIN=n" >> configs/templates/$TNAME.config      # 网易云解锁GO版本执行文件（4M多），请注意固件大小，默认不集成
-          echo "CONFIG_FIRMWARE_INCLUDE_ZEROTIER=y" >> configs/templates/$TNAME.config    # zerotier内网穿透（1.3M左右）
+          echo "CONFIG_FIRMWARE_INCLUDE_ZEROTIER=y" >> configs/templates/$TNAME.config    # 添加zerotier内网穿透（1.3M左右）
         fi
         #########################################################################################
         sudo ./clear_tree
